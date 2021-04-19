@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robotics/static/css/main.781ecb14.chunk.css",
+    "main.js": "/robotics/static/js/main.47f95660.chunk.js",
+    "main.js.map": "/robotics/static/js/main.47f95660.chunk.js.map",
+    "runtime-main.js": "/robotics/static/js/runtime-main.dbb9061e.js",
+    "runtime-main.js.map": "/robotics/static/js/runtime-main.dbb9061e.js.map",
+    "static/js/2.b4fb2765.chunk.js": "/robotics/static/js/2.b4fb2765.chunk.js",
+    "static/js/2.b4fb2765.chunk.js.map": "/robotics/static/js/2.b4fb2765.chunk.js.map",
+    "static/js/3.b223cafb.chunk.js": "/robotics/static/js/3.b223cafb.chunk.js",
+    "static/js/3.b223cafb.chunk.js.map": "/robotics/static/js/3.b223cafb.chunk.js.map",
+    "index.html": "/robotics/index.html",
+    "static/css/main.781ecb14.chunk.css.map": "/robotics/static/css/main.781ecb14.chunk.css.map",
+    "static/js/2.b4fb2765.chunk.js.LICENSE.txt": "/robotics/static/js/2.b4fb2765.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/robotics/static/media/childwithrobot.a4b22d8f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbb9061e.js",
+    "static/js/2.b4fb2765.chunk.js",
+    "static/css/main.781ecb14.chunk.css",
+    "static/js/main.47f95660.chunk.js"
+  ]
+}
