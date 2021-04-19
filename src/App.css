@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+/* colors */
+.indigobg {
+  background: indigo;
+}
+.light-grey {
+  background: rgb(241, 241, 241);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-info {
+  padding: 70px 0;
+}
+.cardi {
+  border-radius: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  background: indigo;
+  padding: 15px;
+  border-radius: 8px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button2 {
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+.btn-nav {
+  position: relative;
+  top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button:hover {
+  cursor: pointer;
+  background: rgb(95, 39, 136);
+}
+
+.market-phrase {
+  /* width: 100%;
+  height: 500px; */
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.308)),
+    url("img/childwithrobot.jpg");
+  background-size: cover;
+  padding: 60px 0;
+}
+header .image-wrapper {
+  width: 300px;
+  height: 300px;
+  padding: 50px 0;
+}
+
+.market-phrase p {
+  color: rgb(209, 199, 199);
+  font-size: 120%;
+  margin-bottom: 9px;
+}
+.market-phrase i {
+  color: yellow;
+  padding: 10px;
+  position: relative;
+  top: 6px;
+}
+
+.margin-phrase h2 {
+  margin-bottom: 10px;
+}
+
+.header-divider {
+  width: 100%;
+  height: 80px;
+}
+
+nav li a {
+  color: rgb(39, 38, 38);
+}
+
+.bold2 {
+  font-weight: 800;
+}
+.size2 {
+  font-size: larger;
+}
+.size5 {
+  font-size: 300%;
+}
+
+.banner {
+  margin-top: 100px;
+}
+
+nav {
+  box-shadow: inherit;
+}
+
+.testimonies h2 {
+  color: #444;
+}
+
+.collection {
+  border: none;
+}
+.join-wrapper {
+  background: #6a5858;
+  padding: 90px 0;
+}
+
+.join h2 {
+  color: white;
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 35px;
+}
+.join .button {
+  margin: 0 auto;
+  background: white;
+  color: black;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.join .button:hover {
+  background: #6a5858;
+  border: 2px solid white;
+  color: white;
+}
+
+footer {
+  background: rgb(58, 53, 53);
+  padding: 30px 0;
+}
+footer a,
+footer p {
+  display: block;
+  color: white;
+}
+
+@media screen and (max-width: 670px) {
+  h2 {
+    font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  p {
+    font-size: 18px;
+  }
+  header .row .col {
+    float: none;
+  }
+
+  header .banner-info-wrapper {
+    margin: 20px auto;
+  }
+
+  header .image-wrapper {
+    width: 250px;
+    height: 250px;
+    padding: 50px 0 0 30px;
+    background: none;
+    margin: 0 auto;
+  }
+  .banner-info {
+    text-align: center;
+  }
+  .banner-info p {
+    text-align: center;
+  }
+
+  header .button {
+    margin: 0px auto;
+  }
+  /* .testimonies-wrapper p, */
+  .collection .collection-item {
+    margin-bottom: 50px;
+  }
+  .testimonies-wrapper p {
+    font-size: 15px;
+  }
+
+  footer .col {
+    border-bottom: 1px solid grey;
   }
 }
